@@ -1,0 +1,20 @@
+---
+domain: fake_news
+name: classification
+task_description: >
+  Classify a news article as REAL or FAKE, and provide a short explanation why.
+created_by: your-name-or-handle
+seed_examples:
+  - question: |
+      Classify this news:
+      "Scientists say the Earth is flat and surrounded by a giant ice wall."
+    answer: |
+      label: FAKE
+      justification: This contradicts centuries of scientific evidence and basic physics.
+  - question: |
+      Classify this news:
+      "NASA successfully launched the Artemis I mission to orbit the Moon."
+    answer: |
+      label: REAL
+      justification: This was confirmed by multiple official sources and media.
+
